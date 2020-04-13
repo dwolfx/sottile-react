@@ -1,0 +1,2 @@
+(this["webpackJsonpsottile-react"]=this["webpackJsonpsottile-react"]||[]).push([[0],[,,,function(t,e){},function(t,e,n){t.exports=n(5)},function(t,e,n){"use strict";n.r(e);var c=n(0),o=n.n(c),a=n(2),r=n.n(a),i=(n(10),n(3)),s=n.n(i);r.a.render(o.a.createElement(o.a.StrictMode,null,o.a.createElement(s.a,null)),document.getElementById("root"))},,,,,function(t,e,n){}],[[4,1,2]]]);
+//# sourceMappingURL=main.e9b49c7f.chunk.js.map
