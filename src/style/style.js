@@ -27,13 +27,15 @@ export const MenuItems = styled.div`
   justify-content: space-between;
   width: 100%;
 `
-export const MenuText = styled.div`
+export const MenuText = styled.button`
   color: #00436C;
   font-size: 1rem;
   display: flex;
   align-self: center;
   font-weight: bold;
   padding: 5px 10px;
+  border: 0;
+  background-color: #fff;
   &.active{
     color: #FFCB05;
     background-color: #00436C;
