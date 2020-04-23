@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BtnYellow, TextBtnYellow } from '../../style/style';
+import { BtnYellow, TextBtnYellow } from '../../../style/style';
 // import { Container } from './styles';
 
 

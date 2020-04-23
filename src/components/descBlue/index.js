@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { SubTitleWhite, BgBlue, Controller, ContainerDesc, TitleYellow, BtnContainer } from '../../style/style';
-import BtnDefault from '../btnDefault'
+import BtnDefault from '../_items/btnDefault'
 
 const trilha = process.env.PUBLIC_URL + '/images/trilha.png';
 const backgroundStyle = {
