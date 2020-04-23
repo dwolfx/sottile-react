@@ -6,8 +6,8 @@ import BtnDefault from '../btnDefault'
 const trilha = process.env.PUBLIC_URL + '/images/trilha.png';
 const backgroundStyle = {
   backgroundImage: 'url('+trilha+')',
-  backgroundRepeat: 'repeat',
-  height: '150px',
+  backgroundRepeat: 'repeat-x',
+  backgroundPositionY: '-292%',
 }
 export default function description() {
   return (

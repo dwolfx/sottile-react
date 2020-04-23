@@ -11,7 +11,7 @@ export default class Home extends Component {
       <React.StrictMode>
         <DescriptionBlue/>
         <DescriptionWhite/>
-        
+        <Tour3D/>
       </React.StrictMode>
     );
   }
