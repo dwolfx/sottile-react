@@ -9,6 +9,7 @@ export const Header = styled.header`
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 10;
 `
 export const ImgTitle = styled.img`
   height: 100%;
@@ -19,6 +20,7 @@ export const Controller = styled.div`
   width: 100%;
   display: flex;
   margin: 0 auto;
+  opacity: 1;
 `
 export const MenuItems = styled.div`
   display: flex;
@@ -60,10 +62,23 @@ export const TitleYellow = styled.h1`
   margin: 5px 0;
   font-size: 2.6rem;
 `
+export const TitleBlue = styled.h1`
+  color: #005884;
+  padding: 0;
+  margin: 5px 0;
+  font-size: 4rem;
+`
 export const SubTitleWhite = styled.h2`
   color: #fff;
   padding: 0;
   margin: 4% 0;
+`
+export const SubTitleBlue = styled.h2`
+  color: #005884;
+  padding: 0;
+  margin: 4% 0;
+  text-align: center;
+  width: 78%;
 `
 export const BgBlue = styled.div`
   background: rgb(0,53,90);
