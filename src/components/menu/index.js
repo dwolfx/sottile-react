@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Header, Controller, ImgTitle, MenuItems, MenuText } from '../../style/style.js';
 
-
-
 export default class Menu extends Component {
   render() {
     return (

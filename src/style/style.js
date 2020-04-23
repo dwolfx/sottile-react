@@ -51,17 +51,19 @@ export const ContainerDesc = styled.div`
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: calc(80vh - 60px);
+  height: calc(85vh - 60px);
+  position: relative;
 `
 export const TitleYellow = styled.h1`
   color: #FFCB05;
   padding: 0;
   margin: 5px 0;
+  font-size: 2.6rem;
 `
 export const SubTitleWhite = styled.h2`
   color: #fff;
   padding: 0;
-  margin: 10px 0;
+  margin: 4% 0;
 `
 export const BgBlue = styled.div`
   background: rgb(0,53,90);
@@ -69,4 +71,28 @@ export const BgBlue = styled.div`
 `
 export const BgWhite = styled.div`
   background-color: #fff;
+`
+export const BtnYellow = styled.button`
+  width: 200px;
+  color: #005884;
+  font-weight:bolder;
+  background-color: #FFCB05;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+`
+export const TextBtnYellow = styled.p`
+  font-size: 1.25rem;
+  color: #005884;  
+`
+export const BtnContainer = styled.div`
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 75%;
+  margin: 10% 0;
+  position: absolute;
+  bottom: 5%;
 `
