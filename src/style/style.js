@@ -45,3 +45,28 @@ export const MenuText = styled.div`
     background-color: #00436C;
   }
 `
+export const ContainerDesc = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: calc(80vh - 60px);
+`
+export const TitleYellow = styled.h1`
+  color: #FFCB05;
+  padding: 0;
+  margin: 5px 0;
+`
+export const SubTitleWhite = styled.h2`
+  color: #fff;
+  padding: 0;
+  margin: 10px 0;
+`
+export const BgBlue = styled.div`
+  background: rgb(0,53,90);
+  background: linear-gradient(90deg, rgba(0,53,90,1) 0%, rgba(0,88,132,1) 71%);
+`
+export const BgWhite = styled.div`
+  background-color: #fff;
+`

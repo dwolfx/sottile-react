@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-
+import DescriptionBlue from '../../components/descBlue'
 
 
 export default class Home extends Component {
   render() {
     return (
-      <h1>Teste</h1>
+      <React.StrictMode>
+        <DescriptionBlue/>
+      </React.StrictMode>
     );
   }
 }
