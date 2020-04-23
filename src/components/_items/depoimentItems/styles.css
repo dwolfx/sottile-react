@@ -1,0 +1,11 @@
+.text{
+  font-size: 0.8rem;
+  top: 50%;
+}
+img {
+  width: 100px;
+}
+.text .name{
+  font-size: 0.9rem;
+
+}

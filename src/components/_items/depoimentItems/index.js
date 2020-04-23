@@ -1,16 +1,29 @@
 import React, { Component } from 'react';
-import { BtnYellow, TextBtnYellow } from '../../../style/style';
-// import { Container } from './styles';
+import { DepoimentItem } from '../../../style/style';
+import './styles.css';
 
 
-export default class BtnDefault extends Component {
+export default class DepoimentItems extends Component {
   render() {
     return (
-        <BtnYellow>
-          <TextBtnYellow>
-          {this.props.title}
-          </TextBtnYellow>
-        </BtnYellow>
-      );
-    }
+      <DepoimentItem>
+        <div className="imagem">
+          <img src={this.props.image} />
+        </div>
+        <div className="text">
+          <div className="message">
+            {this.props.message}
+          </div>
+          <div className="name">
+            {this.props.name}
+          </div>
+          <div className="status">
+            {this.props.status}
+          </div>
+        </div>
+        
+
+      </DepoimentItem>
+    );
   }
+}

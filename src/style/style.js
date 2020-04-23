@@ -111,3 +111,28 @@ export const BtnContainer = styled.div`
   position: absolute;
   bottom: 5%;
 `
+export const DepoimentContainer = styled.div`
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+`
+export const DepoimentItem = styled.div`
+  width: 30%;
+  height: auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+`
+export const DepoimentImage = styled.img`
+  width: 140px;
+  height: 180px;
+`
+export const InstaContainer = styled.div`
+  display: flex;
+  flex-flow: row wrap;
+`
+export const InstaImg =  styled.img`
+  width: 320px;
+  margin: 1px;
+`
