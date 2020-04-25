@@ -6,8 +6,10 @@ import DepoimentItems from '../_items/depoimentItems'
 const trilha = process.env.PUBLIC_URL + '/images/trilha.png';
 const backgroundStyle = {
   backgroundImage: 'url(' + trilha + ')',
-  backgroundRepeat: 'repeat-x',
-  backgroundPositionY: '-292%',
+  height: '15%',
+  position: 'absolute',
+  width: '100%',
+  opacity: '0.5'
 }
 const brokenRules = {
   height: 'auto',
@@ -23,53 +25,52 @@ const img6 = process.env.PUBLIC_URL + '/images/depoiment/img1.png';
 export default function description() {
   return (
     <BgWhite>
-      <div style={backgroundStyle}>
-        <Controller>
-          <ContainerDesc style={brokenRules}>
-            <SubTitleBlue>
-              DEPOIMENTOS NOS NOSSOS PARCEIROS E CLIENTES
+      <div style={backgroundStyle} />
+      <Controller>
+        <ContainerDesc style={brokenRules}>
+          <SubTitleBlue>
+            DEPOIMENTOS NOS NOSSOS PARCEIROS E CLIENTES
               <DepoimentContainer>
-                <DepoimentItems
-                  message="Um nume parum explit ped ma simet ipsapit exerorr orehendam faccumquae volupta temolore illabo. Ique arioreperum quas"
-                  name="Victor"
-                  status="Desenvolvedor"
-                  image={img1}
-                />
-                <DepoimentItems
-                  message="Um nume parum explit ped ma simet ipsapit exerorr orehendam faccumquae volupta temolore illabo. Ique arioreperum quas"
-                  name="Victor"
-                  status="Desenvolvedor"
-                  image={img1}
-                />
-                <DepoimentItems
-                  message="Um nume parum explit ped ma simet ipsapit exerorr orehendam faccumquae volupta temolore illabo. Ique arioreperum quas"
-                  name="Victor"
-                  status="Desenvolvedor"
-                  image={img1}
-                />
-                <DepoimentItems
-                  message="Um nume parum explit ped ma simet ipsapit exerorr orehendam faccumquae volupta temolore illabo. Ique arioreperum quas"
-                  name="Victor"
-                  status="Desenvolvedor"
-                  image={img1}
-                />
-                <DepoimentItems
-                  message="Um nume parum explit ped ma simet ipsapit exerorr orehendam faccumquae volupta temolore illabo. Ique arioreperum quas"
-                  name="Victor"
-                  status="Desenvolvedor"
-                  image={img1}
-                />
-                <DepoimentItems
-                  message="Um nume parum explit ped ma simet ipsapit exerorr orehendam faccumquae volupta temolore illabo. Ique arioreperum quas"
-                  name="Victor"
-                  status="Desenvolvedor"
-                  image={img1}
-                />
-              </DepoimentContainer>
-            </SubTitleBlue>
-          </ContainerDesc>
-        </Controller>
-      </div>
+              <DepoimentItems
+                message="Um nume parum explit ped ma simet ipsapit exerorr orehendam faccumquae volupta temolore illabo. Ique arioreperum quas"
+                name="Victor"
+                status="Desenvolvedor"
+                image={img1}
+              />
+              <DepoimentItems
+                message="Um nume parum explit ped ma simet ipsapit exerorr orehendam faccumquae volupta temolore illabo. Ique arioreperum quas"
+                name="Victor"
+                status="Desenvolvedor"
+                image={img1}
+              />
+              <DepoimentItems
+                message="Um nume parum explit ped ma simet ipsapit exerorr orehendam faccumquae volupta temolore illabo. Ique arioreperum quas"
+                name="Victor"
+                status="Desenvolvedor"
+                image={img1}
+              />
+              <DepoimentItems
+                message="Um nume parum explit ped ma simet ipsapit exerorr orehendam faccumquae volupta temolore illabo. Ique arioreperum quas"
+                name="Victor"
+                status="Desenvolvedor"
+                image={img1}
+              />
+              <DepoimentItems
+                message="Um nume parum explit ped ma simet ipsapit exerorr orehendam faccumquae volupta temolore illabo. Ique arioreperum quas"
+                name="Victor"
+                status="Desenvolvedor"
+                image={img1}
+              />
+              <DepoimentItems
+                message="Um nume parum explit ped ma simet ipsapit exerorr orehendam faccumquae volupta temolore illabo. Ique arioreperum quas"
+                name="Victor"
+                status="Desenvolvedor"
+                image={img1}
+              />
+            </DepoimentContainer>
+          </SubTitleBlue>
+        </ContainerDesc>
+      </Controller>
     </BgWhite>
   )
 }

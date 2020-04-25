@@ -88,6 +88,8 @@ export const BgBlue = styled.div`
 `
 export const BgWhite = styled.div`
   background-color: #fff;
+  position: relative;
+  height: auto;
 `
 export const BtnYellow = styled.button`
   width: 200px;
@@ -133,6 +135,7 @@ export const DepoimentImage = styled.img`
 export const InstaContainer = styled.div`
   display: flex;
   flex-flow: row wrap;
+  margin-bottom: 5%;
 `
 export const InstaImg =  styled.img`
   width: 320px;

@@ -11,10 +11,10 @@ export default class Menu extends Component {
             <>
               <MenuText className="active">HOME</MenuText>
               <MenuText>NOSSA CULTURA</MenuText>
-              <MenuText>PROPRIETÁRIOS</MenuText>
-              <MenuText>EMPRESAS</MenuText>
+              <MenuText>PROPRIETÁRIO</MenuText>
+              <MenuText>EMPRESA</MenuText>
               <MenuText>PAGAMENTOS</MenuText>
-              <MenuText>BLOG</MenuText>
+              {/* <MenuText>BLOG</MenuText> */}
             </>
             <ImgTitle src={process.env.PUBLIC_URL + '/images/wpp.png'} alt='WhatsApp' />
           </MenuItems>
