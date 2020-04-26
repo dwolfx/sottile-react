@@ -137,7 +137,25 @@ export const InstaContainer = styled.div`
   flex-flow: row wrap;
   margin-bottom: 5%;
 `
-export const InstaImg =  styled.img`
+export const InstaImg = styled.img`
   width: 320px;
   margin: 1px;
+`
+export const FormContact = styled.form`
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+` 
+export const FormContent = styled.div`
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2.5%;
+`
+export const FormSubmit = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: center;
 `

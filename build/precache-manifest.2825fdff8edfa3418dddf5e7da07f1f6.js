@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e99005fb4d1dd1af9443a35f3d7efe96",
+    "revision": "7742e56de10e6fe504ad397081af299a",
     "url": "/sottile-react/index.html"
   },
   {
-    "revision": "b4725fdf896cac9aacda",
+    "revision": "a90b839ba42834a0ab9b",
     "url": "/sottile-react/static/css/main.70fc5191.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sottile-react/static/js/2.14ef0aa7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b4725fdf896cac9aacda",
-    "url": "/sottile-react/static/js/main.8c9146f9.chunk.js"
+    "revision": "a90b839ba42834a0ab9b",
+    "url": "/sottile-react/static/js/main.792df972.chunk.js"
   },
   {
     "revision": "872647b62c31f01eb572",
