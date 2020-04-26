@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Header = styled.header`
-  height: 60px;
+  height: 65px;
   background: #fff;
   display: flex;
   justify-content: center;
@@ -10,6 +10,7 @@ export const Header = styled.header`
   width: 100%;
   top: 0;
   z-index: 10;
+  border-bottom: 3px solid #00436C;
 `
 export const ImgTitle = styled.img`
   height: 100%;
@@ -39,6 +40,7 @@ export const MenuText = styled.button`
   font-weight: bold;
   padding: 5px 10px;
   border: 0;
+  cursor: pointer;
   background-color: #fff;
   &.active{
     color: #FFCB05;

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sottile-react/static/css/main.bcdf4f20.chunk.css",
-    "main.js": "/sottile-react/static/js/main.dc96f58c.chunk.js",
-    "main.js.map": "/sottile-react/static/js/main.dc96f58c.chunk.js.map",
+    "main.js": "/sottile-react/static/js/main.29975d44.chunk.js",
+    "main.js.map": "/sottile-react/static/js/main.29975d44.chunk.js.map",
     "runtime-main.js": "/sottile-react/static/js/runtime-main.2a985eb3.js",
     "runtime-main.js.map": "/sottile-react/static/js/runtime-main.2a985eb3.js.map",
     "static/js/2.125dc98b.chunk.js": "/sottile-react/static/js/2.125dc98b.chunk.js",
     "static/js/2.125dc98b.chunk.js.map": "/sottile-react/static/js/2.125dc98b.chunk.js.map",
     "index.html": "/sottile-react/index.html",
-    "precache-manifest.e1d89528f249871207d7e9caf685ec09.js": "/sottile-react/precache-manifest.e1d89528f249871207d7e9caf685ec09.js",
+    "precache-manifest.cd5e920b4106f2b7039687cc37306a67.js": "/sottile-react/precache-manifest.cd5e920b4106f2b7039687cc37306a67.js",
     "service-worker.js": "/sottile-react/service-worker.js",
     "static/css/main.bcdf4f20.chunk.css.map": "/sottile-react/static/css/main.bcdf4f20.chunk.css.map",
     "static/js/2.125dc98b.chunk.js.LICENSE.txt": "/sottile-react/static/js/2.125dc98b.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2a985eb3.js",
     "static/js/2.125dc98b.chunk.js",
     "static/css/main.bcdf4f20.chunk.css",
-    "static/js/main.dc96f58c.chunk.js"
+    "static/js/main.29975d44.chunk.js"
   ]
 }

@@ -43,34 +43,33 @@ export default function description() {
               message="Um nume parum explit ped ma simet ipsapit exerorr orehendam faccumquae volupta temolore illabo. Ique arioreperum quas"
               name="Victor"
               status="Desenvolvedor"
-              image={img1}
+              image={img2}
             />
             <DepoimentItems
               message="Um nume parum explit ped ma simet ipsapit exerorr orehendam faccumquae volupta temolore illabo. Ique arioreperum quas"
               name="Victor"
               status="Desenvolvedor"
-              image={img1}
+              image={img3}
             />
             <DepoimentItems
               message="Um nume parum explit ped ma simet ipsapit exerorr orehendam faccumquae volupta temolore illabo. Ique arioreperum quas"
               name="Victor"
               status="Desenvolvedor"
-              image={img1}
+              image={img4}
             />
             <DepoimentItems
               message="Um nume parum explit ped ma simet ipsapit exerorr orehendam faccumquae volupta temolore illabo. Ique arioreperum quas"
               name="Victor"
               status="Desenvolvedor"
-              image={img1}
+              image={img5}
             />
             <DepoimentItems
               message="Um nume parum explit ped ma simet ipsapit exerorr orehendam faccumquae volupta temolore illabo. Ique arioreperum quas"
               name="Victor"
               status="Desenvolvedor"
-              image={img1}
+              image={img6}
             />
           </DepoimentContainer>
-
         </ContainerDesc>
       </Controller>
     </BgWhite>

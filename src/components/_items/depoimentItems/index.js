@@ -9,10 +9,10 @@ export default class DepoimentItems extends Component {
     return (
       <DepoimentItem>
         <div className="imagem">
-          <img src={this.props.image} />
+          <img src={this.props.image} alt="Foto de perfil"/>
         </div>
         <div className="text">
-          <img src={dep}/>
+          <img src={dep} alt=""/>
           <div className="content">
             <div className="message">
               <p>
@@ -30,7 +30,7 @@ export default class DepoimentItems extends Component {
               </p>
             </div>
           </div>
-          <img src={dep}/>
+          <img src={dep} alt=""/>
         </div>
         
 

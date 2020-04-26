@@ -14,9 +14,8 @@ export default class Menu extends Component {
               <MenuText>PROPRIETÁRIO</MenuText>
               <MenuText>EMPRESA</MenuText>
               <MenuText>PAGAMENTOS</MenuText>
-              {/* <MenuText>BLOG</MenuText> */}
             </>
-            <a target="_blank" href="https://wa.me/5511988736576?text=Gostaria%20de%20conversar%20sobre%20m%C3%B3veis%20planejados%2C%20vim%20pelo%20seu%20site">
+            <a target="_blank" href="https://wa.me/5511988736576?text=Gostaria%20de%20conversar%20sobre%20m%C3%B3veis%20planejados%2C%20vim%20pelo%20seu%20site" rel="noopener noreferrer">
               <ImgTitle src={process.env.PUBLIC_URL + '/images/wpp.png'} alt='WhatsApp' />
             </a>
           </MenuItems>
