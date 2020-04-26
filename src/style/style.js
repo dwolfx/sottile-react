@@ -84,7 +84,7 @@ export const SubTitleBlue = styled.h2`
 `
 export const BgBlue = styled.div`
   background: rgb(0,53,90);
-  background: linear-gradient(90deg, rgba(0,53,90,1) 0%, rgba(0,88,132,1) 71%);
+background: linear-gradient(90deg, rgba(0,53,90,1) 20%, rgba(0,88,132,1) 76%, rgba(0,53,90,1) 100%);
 `
 export const BgWhite = styled.div`
   background-color: #fff;
