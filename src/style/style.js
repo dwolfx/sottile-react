@@ -121,12 +121,13 @@ export const DepoimentContainer = styled.div`
   justify-content: space-around;
 `
 export const DepoimentItem = styled.div`
-  width: 30%;
+  width: 26%;
   height: auto;
   display: flex;
   position: relative;
   justify-content: center;
   flex-direction: column;
+  margin: 5% 3.5%;
 `
 export const DepoimentImage = styled.img`
   width: 140px;

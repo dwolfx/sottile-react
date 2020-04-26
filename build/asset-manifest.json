@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/sottile-react/static/css/main.70fc5191.chunk.css",
-    "main.js": "/sottile-react/static/js/main.a7ab8da5.chunk.js",
-    "main.js.map": "/sottile-react/static/js/main.a7ab8da5.chunk.js.map",
+    "main.css": "/sottile-react/static/css/main.68c196ef.chunk.css",
+    "main.js": "/sottile-react/static/js/main.f0e1a964.chunk.js",
+    "main.js.map": "/sottile-react/static/js/main.f0e1a964.chunk.js.map",
     "runtime-main.js": "/sottile-react/static/js/runtime-main.2a985eb3.js",
     "runtime-main.js.map": "/sottile-react/static/js/runtime-main.2a985eb3.js.map",
     "static/js/2.125dc98b.chunk.js": "/sottile-react/static/js/2.125dc98b.chunk.js",
     "static/js/2.125dc98b.chunk.js.map": "/sottile-react/static/js/2.125dc98b.chunk.js.map",
     "index.html": "/sottile-react/index.html",
-    "precache-manifest.b8e44cd9c34be20e477c0b28d502ad84.js": "/sottile-react/precache-manifest.b8e44cd9c34be20e477c0b28d502ad84.js",
+    "precache-manifest.8d5680459c11dc696220a44d79cbaef7.js": "/sottile-react/precache-manifest.8d5680459c11dc696220a44d79cbaef7.js",
     "service-worker.js": "/sottile-react/service-worker.js",
-    "static/css/main.70fc5191.chunk.css.map": "/sottile-react/static/css/main.70fc5191.chunk.css.map",
+    "static/css/main.68c196ef.chunk.css.map": "/sottile-react/static/css/main.68c196ef.chunk.css.map",
     "static/js/2.125dc98b.chunk.js.LICENSE.txt": "/sottile-react/static/js/2.125dc98b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2a985eb3.js",
     "static/js/2.125dc98b.chunk.js",
-    "static/css/main.70fc5191.chunk.css",
-    "static/js/main.a7ab8da5.chunk.js"
+    "static/css/main.68c196ef.chunk.css",
+    "static/js/main.f0e1a964.chunk.js"
   ]
 }

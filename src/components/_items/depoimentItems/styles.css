@@ -1,11 +1,39 @@
+.imagem{
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+}
+.imagem img {
+  width: 50%;
+  margin-bottom: 5%;
+}
 .text{
   font-size: 0.8rem;
-  top: 50%;
+  position: relative;
 }
-img {
-  width: 100px;
+.text img:first-child{
+  position: absolute;
+  top: -25%;
+  left: -5%;
+  opacity: 0.5;
 }
-.text .name{
+.text img:last-child{
+  position: absolute;
+  bottom: -5%;
+  right: -5%;
+  opacity: 0.5;
+}
+.text .content{
+  position: relative;
+  z-index: 5;
+  margin: 5% 0 15% 0;
+}
+.text .content .name p {
+  font-weight: bolder;
+}
+.text .content p{
   font-size: 0.9rem;
-
+  text-align: center;
+  color: #005884;
+  font-size: 1rem;
 }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { DepoimentItem } from '../../../style/style';
 import './styles.css';
 
+const dep = process.env.PUBLIC_URL + '/images/dep.png';
 
 export default class DepoimentItems extends Component {
   render() {
@@ -11,15 +12,25 @@ export default class DepoimentItems extends Component {
           <img src={this.props.image} />
         </div>
         <div className="text">
-          <div className="message">
-            {this.props.message}
+          <img src={dep}/>
+          <div className="content">
+            <div className="message">
+              <p>
+                {this.props.message}
+              </p>
+            </div>
+            <div className="name">
+              <p>
+                {this.props.name}
+              </p>
+            </div>
+            <div className="status">
+              <p>
+                {this.props.status}
+              </p>
+            </div>
           </div>
-          <div className="name">
-            {this.props.name}
-          </div>
-          <div className="status">
-            {this.props.status}
-          </div>
+          <img src={dep}/>
         </div>
         
 
