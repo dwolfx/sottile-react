@@ -1,7 +1,5 @@
 import React from 'react';
-import { BgWhite, Controller, FormContact, FormContent, FormSubmit, ContainerDesc, SubTitleBlue, InstaContainer, InstaImg } from '../../style/style';
-import DepoimentItems from '../_items/depoimentItems'
-
+import { BgWhite, Controller, FormContact, FormContent, FormSubmit, ContainerDesc, SubTitleBlue} from '../../style/style';
 
 const trilha = process.env.PUBLIC_URL + '/images/trilha.png';
 const backgroundStyle = {

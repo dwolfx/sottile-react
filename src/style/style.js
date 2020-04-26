@@ -55,7 +55,7 @@ export const ContainerDesc = styled.div`
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: calc(85vh - 60px);
+  min-height: calc(85vh - 60px);
   position: relative;
 `
 export const TitleYellow = styled.h1`
@@ -158,4 +158,13 @@ export const FormSubmit = styled.div`
   display: flex;
   width: 100%;
   justify-content: center;
+`
+export const Tour3d = styled.div`
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 0;
 `

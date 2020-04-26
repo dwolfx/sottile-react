@@ -1,6 +1,5 @@
 import React from 'react';
 import { BgWhite, Controller, ContainerDesc, SubTitleBlue, InstaContainer, InstaImg } from '../../style/style';
-import DepoimentItems from '../_items/depoimentItems'
 
 
 const trilha = process.env.PUBLIC_URL + '/images/trilha.png';
