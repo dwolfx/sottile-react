@@ -47,7 +47,7 @@ export default function description() {
               <input type='tel' id="phone" style={inputData} name="phone" title='Formato: XX XXXXX-XXXX' placeholder="Seu telefone (XX) XXXXX-XXXX" minlength="11" required />
             </FormContent>
             <FormContent>
-            <textarea id="conteudo" style={textArea} name="content" placeholder="Conteúdo do email" minlength="10" required></textarea>
+            <textarea id="conteudo" style={textArea} name="content" placeholder="Descrição" minlength="10" required></textarea>
             </FormContent>
             <FormSubmit>
               <button type="submit" style={btnSubmit} id="submit" className="btn-submit" value="Submit">

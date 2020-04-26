@@ -166,5 +166,6 @@ export const Tour3d = styled.div`
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  margin: 10% 0;
+  margin-top: 2.5%;
+  margin-bottom: 10%;
 `

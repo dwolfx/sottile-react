@@ -33,7 +33,7 @@ export default function description() {
       <Controller>
         <ContainerDesc style={brokenRulesInsta}>
           <SubTitleBlue style={changeTitleInsta}>
-            NOS SIGA NO INSTAGRAM! @sottile.planejados
+            INTAGRAM
             </SubTitleBlue>
           <InstaContainer>
             <InstaImg src={img1} />
