@@ -15,6 +15,7 @@ export const Header = styled.header`
 export const ImgTitle = styled.img`
   height: 100%;
   width: auto;
+  max-width: 170px;
 `;
 export const ImgFooter = styled.img`
   height: 50px;
@@ -128,7 +129,7 @@ export const DepoimentContainer = styled.div`
 `
 export const DepoimentItem = styled.div`
   width: 26%;
-  height: auto;
+  height: 100%;
   display: flex;
   position: relative;
   justify-content: center;
@@ -201,4 +202,10 @@ export const FooterIcons = styled.div`
   width: 25%;
   display: flex;
   justify-content: space-between;
+`
+export const Mass = styled.div`
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
 `

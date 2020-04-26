@@ -29,6 +29,11 @@ export default class DepoimentItems extends Component {
                 {this.props.status}
               </p>
             </div>
+            <div className="video">
+              <a href={this.props.video} target="_blank" rel="noopener noreferrer">
+                <p>Assista ao vídeo</p>
+              </a>
+            </div>
           </div>
           <img src={dep} alt=""/>
         </div>

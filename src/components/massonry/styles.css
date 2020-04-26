@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  text-align: center;
+  height: 300px;
+}
+.card h1 {
+  color: #ffcb05;
+  font-size: 1.4rem;
+  margin-bottom: 5%;
+}
+.card p {
+  color: #fff;
+}
+.card1,
+.card2 {
+  width: 50%;
+  padding: 3%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card3,
+.card4,
+.card5 {
+  width: 33.33%;
+  padding: 3%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card1,
+.card5 {
+  background-color: #0d3659;
+}
+.card2,
+.card3 {
+  background-color: #0d5984;
+}
+.card4 {
+  background-color: #0b436b;
+}

@@ -21,7 +21,9 @@ export default function description() {
             NOSSA CULTURA
           </TitleBlue>
           <SubTitleBlue>
-            Todas as áreas da Sottile estão alinhadas na mesma cultura, acreditamos e buscamos pessoas do bem para fazer o bem, Nossa missão, os valores,onde vamos chegar... vem com a gente!
+          A Sottile Móveis é uma empresa disruptiva, jovem, empreendedora, 
+          antenada em tecnologia e focada na experiência do consumidor, com 
+          valores baseados na empatia
           </SubTitleBlue>
           <BtnContainer>
             <BtnDefault title="VEJA MAIS" />
