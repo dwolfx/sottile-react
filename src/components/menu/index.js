@@ -16,7 +16,9 @@ export default class Menu extends Component {
               <MenuText>PAGAMENTOS</MenuText>
               {/* <MenuText>BLOG</MenuText> */}
             </>
-            <ImgTitle src={process.env.PUBLIC_URL + '/images/wpp.png'} alt='WhatsApp' />
+            <a target="_blank" href="https://wa.me/5511988736576?text=Gostaria%20de%20conversar%20sobre%20m%C3%B3veis%20planejados%2C%20vim%20pelo%20seu%20site">
+              <ImgTitle src={process.env.PUBLIC_URL + '/images/wpp.png'} alt='WhatsApp' />
+            </a>
           </MenuItems>
         </Controller>
       </Header>

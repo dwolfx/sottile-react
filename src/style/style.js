@@ -15,6 +15,10 @@ export const ImgTitle = styled.img`
   height: 100%;
   width: auto;
 `;
+export const ImgFooter = styled.img`
+  height: 50px;
+  width: auto;
+`;
 export const Controller = styled.div`
   max-width: 970px;
   width: 100%;
@@ -169,4 +173,30 @@ export const Tour3d = styled.div`
   align-items: center;
   margin-top: 2.5%;
   margin-bottom: 10%;
+`
+export const Footer = styled.div`
+  width: 100%;
+  background-color: #00345A;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+`
+export const FooterContent = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  color: #fff;
+  margin: 1.5% 0% 0%;
+` 
+export const FooterText = styled.div`
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+`
+export const FooterIcons = styled.div`
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
 `
