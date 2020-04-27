@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
-import { SubTitleWhite, BgBlue, Controller, ContainerDesc, TitleYellow } from '../../style/style';
+import { 
+  SubTitleWhite, 
+  BgBlue, 
+  Controller, 
+  ContainerDesc, 
+  TitleYellow 
+} from '../../style/style';
 
 const trilha = process.env.PUBLIC_URL + '/images/trilha.png';
 const backgroundStyle = {
@@ -10,6 +16,12 @@ const fixHeight = {
   height: '350px',
   minHeight: 'inherit'
 }
+const fixMargin = {
+  margin: '0'
+}
+const titleMargin = {
+  marginBottom: '30px'
+}
 export default class TitleBlue extends Component {
   render() {
     return (
@@ -17,11 +29,23 @@ export default class TitleBlue extends Component {
         <div style={backgroundStyle}>
           <Controller >
             <ContainerDesc style={fixHeight}>
-              <TitleYellow>
+              <TitleYellow style={titleMargin}>
                 {this.props.title}
               </TitleYellow>
-              <SubTitleWhite>
-                {this.props.sub}
+              <SubTitleWhite style={fixMargin}>
+                {this.props.sub1}
+              </SubTitleWhite>
+              <SubTitleWhite style={fixMargin}>
+                {this.props.sub2}
+              </SubTitleWhite>
+              <SubTitleWhite style={fixMargin}>
+                {this.props.sub3}
+              </SubTitleWhite>
+              <SubTitleWhite style={fixMargin}>
+                {this.props.sub4}
+              </SubTitleWhite>
+              <SubTitleWhite style={fixMargin}>
+                {this.props.sub5}
               </SubTitleWhite>
             </ContainerDesc>
           </Controller>

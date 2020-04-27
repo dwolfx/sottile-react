@@ -41,9 +41,14 @@
   background-color: #0d3659;
 }
 .card2,
-.card3 {
+.card4 {
   background-color: #0d5984;
 }
-.card4 {
+.card3 {
   background-color: #0b436b;
+}
+@media screen and (max-width: 425px) {
+  .card{
+    width: 100% !important;
+  }
 }

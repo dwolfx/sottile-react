@@ -1,20 +1,23 @@
 import React from 'react';
-import { BgWhite, Controller, ContainerDesc, SubTitleBlue, DepoimentContainer } from '../../style/style';
+import {
+  BgWhite,
+  ImgBgWhite,
+  Controller,
+  ContainerDesc,
+  SubTitleBlue,
+  DepoimentContainer
+} from '../../style/style';
 import DepoimentItems from '../_items/depoimentItems'
 
 
 const trilha = process.env.PUBLIC_URL + '/images/trilha.png';
 const backgroundStyle = {
-  backgroundImage: 'url(' + trilha + ')',
-  height: '10%',
-  position: 'absolute',
-  width: '100%',
-  opacity: '0.5'
+  backgroundImage: 'url(' + trilha + ')'
 }
 const brokenRules = {
   height: 'auto',
   minHeight: 'calc(85vh - 60px)',
-  marginTop: '10%'
+  paddingTop: '100px'
 }
 const img1 = process.env.PUBLIC_URL + '/images/depoiment/img1.png';
 const img2 = process.env.PUBLIC_URL + '/images/depoiment/img1.png';
@@ -26,11 +29,11 @@ const img6 = process.env.PUBLIC_URL + '/images/depoiment/img1.png';
 export default function description() {
   return (
     <BgWhite>
-      <div style={backgroundStyle} />
+      <ImgBgWhite style={backgroundStyle} />
       <Controller>
         <ContainerDesc style={brokenRules}>
           <SubTitleBlue>
-            DEPOIMENTOS NOS NOSSOS PARCEIROS E CLIENTES
+            DEPOIMENTOS DOS NOSSOS PARCEIROS E CLIENTES
           </SubTitleBlue>
           <DepoimentContainer>
             <DepoimentItems

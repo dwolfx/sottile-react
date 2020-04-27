@@ -32,3 +32,8 @@
 .text-white .title.hidden{
   display: none;
 }
+@media screen and (max-width: 425px) {
+  .text-white{
+    padding: 0 2.5%;
+  }
+}

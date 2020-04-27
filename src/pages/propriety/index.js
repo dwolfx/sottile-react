@@ -8,9 +8,6 @@ const fixHeight = {
   height: '500px'
 }
 
-const brok = {
-  paddingBottom:'5%'
-}
 export default class Propriety extends Component {
   render() {
     return (

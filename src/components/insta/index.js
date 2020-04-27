@@ -1,19 +1,22 @@
 import React from 'react';
-import { BgWhite, Controller, ContainerDesc, SubTitleBlue, InstaContainer, InstaImg } from '../../style/style';
-
+import { 
+  BgWhite, 
+  ImgBgWhite, 
+  Controller, 
+  ContainerDesc, 
+  SubTitleBlue, 
+  InstaContainer, 
+  InstaImg 
+} from '../../style/style';
 
 const trilha = process.env.PUBLIC_URL + '/images/trilha.png';
 const backgroundStyle = {
-  backgroundImage: 'url(' + trilha + ')',
-  height: '15%',
-  position: 'absolute',
-  width: '100%',
-  opacity: '0.5'
+  backgroundImage: 'url(' + trilha + ')'
 }
 const brokenRulesInsta = {
   height: 'auto',
   minHeight: 'calc(85vh - 60px)',
-  paddingTop: '15%',
+  paddingTop: '100px',
   justifyContent: 'unset'
 }
 const changeTitleInsta = {
@@ -29,7 +32,7 @@ const img6 = process.env.PUBLIC_URL + '/images/insta/img6.jpg';
 export default function description() {
   return (
     <BgWhite>
-      <div style={backgroundStyle} />
+      <ImgBgWhite style={backgroundStyle} />
       <Controller>
         <ContainerDesc style={brokenRulesInsta}>
           <SubTitleBlue style={changeTitleInsta}>

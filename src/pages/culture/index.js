@@ -8,23 +8,23 @@ const fixHeight = {
 }
 
 const brok = {
-  paddingBottom:'5%'
+  paddingBottom: '5%'
 }
 export default class Company extends Component {
   render() {
     return (
       <React.StrictMode>
-        <TitleBlue 
-          title="NOSSO PROPÓSITO" 
-          sub="Ajudar pessoas a construírem os seus lares | 
-              Gerar oportunidades de emprego | 
-              Melhorar a qualidade de vida dos nossos stakeholders | 
-              Facilitar a tomada de decisão de quem precisa mobiliar um imóvel | 
-              Oferecer capacitação profissional"   
+        <TitleBlue
+          title="NOSSO PROPÓSITO"
+          sub1="Ajudar pessoas a construírem os seus lares."
+          sub2="Gerar oportunidades de emprego."
+          sub3="Melhorar a qualidade de vida dos nossos stakeholders."
+          sub4="Facilitar a tomada de decisão de quem precisa mobiliar um imóvel."
+          sub5="Oferecer capacitação profissional"
           style={fixHeight}
         />
         <BgWhite style={brok}>
-          <TextWhite 
+          <TextWhite
             title="NOSSOS VALORES"
             destacado="Get it done (Agir):"
             text="Somos realizadores! Estamos sempre dispostos a fazer o que é 

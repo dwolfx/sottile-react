@@ -1,5 +1,12 @@
 import React from 'react';
-import { Footer, FooterContent, FooterText, FooterIcons, ImgFooter, Controller } from '../../style/style';
+import {
+  Footer, 
+  FooterContent, 
+  FooterText, 
+  FooterIcons, 
+  ImgFooter, 
+  Controller
+} from '../../style/style';
 
 const icons = {
   margin: '0 0.5%',
@@ -19,15 +26,15 @@ export default function description() {
             <p>Whatsapp: (11) 98873-6576</p>
           </FooterText>
           <FooterIcons>
-          <a target="_blank" href="https://wa.me/5511988736576?text=Gostaria%20de%20conversar%20sobre%20m%C3%B3veis%20planejados%2C%20vim%20pelo%20seu%20site" rel="noopener noreferrer">
-            <ImgFooter style={icons} src={process.env.PUBLIC_URL + '/images/wpp.png'} alt='WhatsApp' />
-          </a>
-          <a target="_blank" href="https://www.instagram.com/sottile.planejados/" rel="noopener noreferrer">
-            <ImgFooter style={icons} src={process.env.PUBLIC_URL + '/images/instagram.png'} alt='Instragram' />
-          </a>
-          <a target="_blank" href="https://www.facebook.com/sottilemoveis10" rel="noopener noreferrer">
-            <ImgFooter style={icons} src={process.env.PUBLIC_URL + '/images/facebook.png'} alt='Sottile - 2020' />
-          </a>
+            <a target="_blank" href="https://wa.me/5511988736576?text=Gostaria%20de%20conversar%20sobre%20m%C3%B3veis%20planejados%2C%20vim%20pelo%20seu%20site" rel="noopener noreferrer">
+              <ImgFooter style={icons} src={process.env.PUBLIC_URL + '/images/wpp.png'} alt='WhatsApp' />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/sottile.planejados/" rel="noopener noreferrer">
+              <ImgFooter style={icons} src={process.env.PUBLIC_URL + '/images/instagram.png'} alt='Instragram' />
+            </a>
+            <a target="_blank" href="https://www.facebook.com/sottilemoveis10" rel="noopener noreferrer">
+              <ImgFooter style={icons} src={process.env.PUBLIC_URL + '/images/facebook.png'} alt='Sottile - 2020' />
+            </a>
           </FooterIcons>
         </FooterContent>
       </Controller>
