@@ -46,35 +46,6 @@ export const MenuItemsMobile = styled.div`
     display: none;
   }
 `
-export const MenuText = styled.button`
-  color: ${color.blueDefault};
-  font-size: 1rem;
-  display: flex;
-  align-self: center;
-  font-weight: bold;
-  padding: 5px 10px;
-  border: 0;
-  cursor: pointer;
-  background-color: ${color.white};
-  &.active{
-    color: ${color.yellowDefault};
-    background-color: ${color.blueDefault};
-    &:hover{
-      color: ${color.yellowDefault};
-      background-color: ${color.blueDefault};
-    }
-  }
-  &:hover{
-    color: ${color.white};
-    background-color: ${color.blueDefault};
-  }
-  @media ${device.mobileL} {
-    width: 100%;
-    height: 50px;
-    margin-bottom: 5px;
-    text-align: left;
-  }
-`
 export const ContainerDesc = styled.div`
   display: flex;
   justify-content: center;

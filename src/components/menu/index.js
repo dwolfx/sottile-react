@@ -5,11 +5,10 @@ import {
   ImgTitle,
   MenuItemsDesk,
   MenuItemsMobile,
-  MenuText,
   FooterIcons,
   ImgFooter
 } from '../../style/style.js';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import './styles.css'
 
 
@@ -78,18 +77,18 @@ export default class Menu extends Component {
               <ImgTitle src={process.env.PUBLIC_URL + '/images/sottile-logo.png'} alt='Sottile - 2020' />
             </div>
             <div style={menuFix}>
-              <Link to="/" style={link}>
-                <MenuText Link="/" className="active">HOME</MenuText>
-              </Link>
-              <Link to="/cultura" style={link}>
-                <MenuText >NOSSA CULTURA</MenuText>
-              </Link>
-              <Link to="/proprietario" style={link}>
-                <MenuText>PROPRIETÁRIO</MenuText>
-              </Link>
-              <Link to="/empresa" style={link}>
-                <MenuText>EMPRESA</MenuText>
-              </Link>
+              <NavLink to="/" style={link} exact activeClassName="active">
+                <button className="btn-menu">HOME</button>
+              </NavLink>
+              <NavLink to="/cultura" style={link} activeClassName="active">
+                <button className="btn-menu">NOSSA CULTURA</button>
+              </NavLink>
+              <NavLink to="/proprietario" style={link} activeClassName="active">
+                <button className="btn-menu">PROPRIETÁRIO</button>
+              </NavLink>
+              <NavLink to="/empresa" style={link} activeClassName="active">
+                <button className="btn-menu">EMPRESA</button>
+              </NavLink>
             </div>
             <a target="_blank" href="https://wa.me/5511988736576?text=Gostaria%20de%20conversar%20sobre%20m%C3%B3veis%20planejados%2C%20vim%20pelo%20seu%20site" rel="noopener noreferrer">
               <ImgTitle src={process.env.PUBLIC_URL + '/images/wpp.png'} alt='WhatsApp' />
@@ -104,18 +103,18 @@ export default class Menu extends Component {
             </div>
             <div style={menuMobile} className={this.state.active && 'active'}>
               <ImgTitle style={menuClose} onClick={() => this.setState({ active: !this.state.active })} src={process.env.PUBLIC_URL + '/images/closeM.png'} alt='Fechar' />
-              <Link to="/" style={link}>
-                <MenuText Link="/" onClick={() => this.setState({ active: !this.state.active })} className="active">HOME</MenuText>
-              </Link>
-              <Link to="/cultura" onClick={() => this.setState({ active: !this.state.active })} style={link}>
-                <MenuText >NOSSA CULTURA</MenuText>
-              </Link>
-              <Link to="/proprietario" onClick={() => this.setState({ active: !this.state.active })} style={link}>
-                <MenuText>PROPRIETÁRIO</MenuText>
-              </Link>
-              <Link to="/empresa" onClick={() => this.setState({ active: !this.state.active })} style={link}>
-                <MenuText>EMPRESA</MenuText>
-              </Link>
+              <NavLink to="/" style={link}>
+                <div Link="/" onClick={() => this.setState({ active: !this.state.active })} className="active">HOME</div>
+              </NavLink>
+              <NavLink to="/cultura" onClick={() => this.setState({ active: !this.state.active })} style={link}>
+                <div >NOSSA CULTURA</div>
+              </NavLink>
+              <NavLink to="/proprietario" onClick={() => this.setState({ active: !this.state.active })} style={link}>
+                <div>PROPRIETÁRIO</div>
+              </NavLink>
+              <NavLink to="/empresa" onClick={() => this.setState({ active: !this.state.active })} style={link}>
+                <div>EMPRESA</div>
+              </NavLink>
               <FooterIcons style={mediaIcons}>
                 <a target="_blank" href="https://wa.me/5511988736576?text=Gostaria%20de%20conversar%20sobre%20m%C3%B3veis%20planejados%2C%20vim%20pelo%20seu%20site" rel="noopener noreferrer">
                   <ImgFooter style={icons} src={process.env.PUBLIC_URL + '/images/wpp.png'} alt='WhatsApp' />
