@@ -42,7 +42,8 @@ const menuMobile = {
   backgroundColor: '#005884',
   top: '65px',
   left: '0',
-  display: 'none'
+  transform: 'translateX(-100%)',
+  transition: 'all .5s'
 }
 const menuClose = {
   height: 'auto',
@@ -101,19 +102,19 @@ export default class Menu extends Component {
             <div style={logoImg}>
               <ImgTitle src={process.env.PUBLIC_URL + '/images/sottile-logo.png'} alt='Sottile - 2020' />
             </div>
-            <div style={menuMobile} className={this.state.active && 'active'}>
+            <div style={menuMobile} className={this.state.active && 'menu active'}>
               <ImgTitle style={menuClose} onClick={() => this.setState({ active: !this.state.active })} src={process.env.PUBLIC_URL + '/images/closeM.png'} alt='Fechar' />
-              <NavLink to="/" style={link}>
-                <div Link="/" onClick={() => this.setState({ active: !this.state.active })} className="active">HOME</div>
+              <NavLink to="/" exact onClick={() => this.setState({ active: !this.state.active })} style={link}>
+                <button className="btn-menu">HOME</button>
               </NavLink>
               <NavLink to="/cultura" onClick={() => this.setState({ active: !this.state.active })} style={link}>
-                <div >NOSSA CULTURA</div>
+                <button className="btn-menu">NOSSA CULTURA</button>
               </NavLink>
               <NavLink to="/proprietario" onClick={() => this.setState({ active: !this.state.active })} style={link}>
-                <div>PROPRIETÁRIO</div>
+                <button className="btn-menu">PROPRIETÁRIO</button>
               </NavLink>
               <NavLink to="/empresa" onClick={() => this.setState({ active: !this.state.active })} style={link}>
-                <div>EMPRESA</div>
+                <button className="btn-menu">EMPRESA</button>
               </NavLink>
               <FooterIcons style={mediaIcons}>
                 <a target="_blank" href="https://wa.me/5511988736576?text=Gostaria%20de%20conversar%20sobre%20m%C3%B3veis%20planejados%2C%20vim%20pelo%20seu%20site" rel="noopener noreferrer">

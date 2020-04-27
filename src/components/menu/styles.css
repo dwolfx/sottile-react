@@ -1,3 +1,6 @@
+.menu.active{
+  transform: translateY(0) !important;
+}
 .btn-menu {
   color: #00436C;
   font-size: 1rem;
@@ -24,4 +27,6 @@ a.active .btn-menu{
     margin-bottom: 5px;
     text-align: left;
   }
+
 }
+
