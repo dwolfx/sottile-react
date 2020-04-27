@@ -5,6 +5,7 @@
 }
 .imagem img {
   width: 50%;
+  height: auto;
   margin-bottom: 5%;
 }
 .text{
@@ -40,5 +41,6 @@
 @media screen and (max-width: 425px){
   .imagem img{
     width: 35%;
+    height: auto;
   }
 }

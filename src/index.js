@@ -7,6 +7,7 @@ import Propriety from './pages/propriety';
 import Company from './pages/company';
 import Menu from './components/menu'
 import Footer from './components/footer'
+import ScrollToTop from './components/_items/scroll.js'
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 
 
@@ -15,12 +16,13 @@ ReactDOM.render(
     <Router>
     <Menu />
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/cultura" component={Culture} />
-        <Route path="/proprietario" component={Propriety} />
-        <Route path="/empresa" component={Company} />
-        <Redirect to="/" />
-        <Route component={Home} />
+        <ScrollToTop>
+          <Route path="/" exact component={Home} />
+          <Route path="/cultura" component={Culture} />
+          <Route path="/proprietario" component={Propriety} />
+          <Route path="/empresa" component={Company} />
+          <Redirect to="/" />
+        </ScrollToTop>
       </Switch>
     <Footer />
     </Router>

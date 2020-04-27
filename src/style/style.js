@@ -162,6 +162,7 @@ export const BtnYellow = styled.button`
   justify-content: center;
   align-items: center;
   border: 0;
+  cursor: pointer;
   @media ${device.mobileL} {
     width: 100%;
     margin-bottom: 15px;
@@ -223,6 +224,7 @@ export const InstaContainer = styled.div`
 `
 export const InstaImg = styled.img`
   width: 320px;
+  height: auto;
   margin: 1px;
 `
 export const FormContact = styled.form`
@@ -234,7 +236,7 @@ export const FormContact = styled.form`
     flex-flow: column;
     align-items: center;
   }
-` 
+`
 export const FormContent = styled.div`
   display: flex;
   width: 50%;
@@ -280,7 +282,7 @@ export const FooterContent = styled.div`
   @media ${device.mobileL} {
     flex-direction: column;
   }
-` 
+`
 export const FooterText = styled.div`
   display: flex;
   flex-flow: column wrap;
