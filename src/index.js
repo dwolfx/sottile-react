@@ -7,7 +7,7 @@ import Propriety from './pages/propriety';
 import Company from './pages/company';
 import Menu from './components/menu'
 import Footer from './components/footer'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 
 
 ReactDOM.render(
@@ -19,6 +19,8 @@ ReactDOM.render(
         <Route path="/cultura" component={Culture} />
         <Route path="/proprietario" component={Propriety} />
         <Route path="/empresa" component={Company} />
+        <Redirect to="/" />
+        <Route component={Home} />
       </Switch>
     <Footer />
     </Router>

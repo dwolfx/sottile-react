@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/sottile-react/static/css/main.fcc7e93e.chunk.css",
-    "main.js": "/sottile-react/static/js/main.3a2c724c.chunk.js",
-    "main.js.map": "/sottile-react/static/js/main.3a2c724c.chunk.js.map",
+    "main.js": "/sottile-react/static/js/main.a4efb752.chunk.js",
+    "main.js.map": "/sottile-react/static/js/main.a4efb752.chunk.js.map",
     "runtime-main.js": "/sottile-react/static/js/runtime-main.2a985eb3.js",
     "runtime-main.js.map": "/sottile-react/static/js/runtime-main.2a985eb3.js.map",
-    "static/js/2.5d552513.chunk.js": "/sottile-react/static/js/2.5d552513.chunk.js",
-    "static/js/2.5d552513.chunk.js.map": "/sottile-react/static/js/2.5d552513.chunk.js.map",
+    "static/js/2.0310d6ab.chunk.js": "/sottile-react/static/js/2.0310d6ab.chunk.js",
+    "static/js/2.0310d6ab.chunk.js.map": "/sottile-react/static/js/2.0310d6ab.chunk.js.map",
     "index.html": "/sottile-react/index.html",
-    "precache-manifest.96357ee4e2e95649d20b44120eb30b1c.js": "/sottile-react/precache-manifest.96357ee4e2e95649d20b44120eb30b1c.js",
+    "precache-manifest.89cac159e5a5dcf89e01f0191265af34.js": "/sottile-react/precache-manifest.89cac159e5a5dcf89e01f0191265af34.js",
     "service-worker.js": "/sottile-react/service-worker.js",
     "static/css/main.fcc7e93e.chunk.css.map": "/sottile-react/static/css/main.fcc7e93e.chunk.css.map",
-    "static/js/2.5d552513.chunk.js.LICENSE.txt": "/sottile-react/static/js/2.5d552513.chunk.js.LICENSE.txt"
+    "static/js/2.0310d6ab.chunk.js.LICENSE.txt": "/sottile-react/static/js/2.0310d6ab.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2a985eb3.js",
-    "static/js/2.5d552513.chunk.js",
+    "static/js/2.0310d6ab.chunk.js",
     "static/css/main.fcc7e93e.chunk.css",
-    "static/js/main.3a2c724c.chunk.js"
+    "static/js/main.a4efb752.chunk.js"
   ]
 }
